@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - My New Hugo Site</title>
+        <link>https://dyinboisry4u.github.io/posts/</link>
+        <description>All Posts | My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shaoxuanwang@hotmail.com (Gaux Wang)</managingEditor>
+            <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Wed, 15 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>My first Post</title>
+    <link>https://dyinboisry4u.github.io/230222/</link>
+    <pubDate>Wed, 15 Feb 2023 00:00:00 &#43;0000</pubDate>
+    <author>Gaux Wang</author>
+    <guid>https://dyinboisry4u.github.io/230222/</guid>
+    <description><![CDATA[Hi, here is my first post I&rsquo;ll record my study and something on here
+So today is a new day
+morning eat eat afternoon sleep sleep evening 1 echo &#34;hi&#34; 1 print(&#34;hi&#34;) 1 print(&#34;hi&#34;) 1 print &#34;hi&#34; ]]></description>
+</item>
+</channel>
+</rss>
