@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>hi - Category - My New Hugo Site</title>
+        <title>hi - Category - Gaux Wang&#39;s Blog</title>
         <link>https://dyinboisry4u.github.io/categories/hi/</link>
-        <description>hi - Category - My New Hugo Site</description>
+        <description>hi - Category - Gaux Wang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shaoxuanwang@hotmail.com (Gaux Wang)</managingEditor>
             <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Wed, 15 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/categories/hi/" rel="self" type="application/rss+xml" /><item>
     <title>My first Post</title>
