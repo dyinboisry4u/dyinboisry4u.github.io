@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://dyinboisry4u.github.io/sitemap.xml
+Sitemap: https://dyinboisry4u.github.io/sitemap.xml
