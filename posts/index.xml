@@ -4,7 +4,17 @@
         <link>https://dyinboisry4u.github.io/posts/</link>
         <description>All Posts | Gaux Wang&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shaoxuanwang@hotmail.com (Gaux Wang)</managingEditor>
-            <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Fri, 24 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Load cellbender filtered data to scanpy</title>
+    <link>https://dyinboisry4u.github.io/230224/</link>
+    <pubDate>Fri, 24 Feb 2023 00:00:00 &#43;0000</pubDate>
+    <author>Gaux Wang</author>
+    <guid>https://dyinboisry4u.github.io/230224/</guid>
+    <description><![CDATA[Load cellbender filtered data to scanpy Fix cellbender data loading problems
+Problems On cellbender v0.2,2, here are 2 questions:
+Can not load cb output with sc.read_10_h5: scanpy v1.9.1 complains ValueError: Illegal slicing argument for scalar dataspace Releated issues: i. https://github.com/broadinstitute/CellBender/issues/174 ii. https://github.com/broadinstitute/CellBender/issues/128 CB filter data include &ldquo;cells&rdquo; with zero counts Releated issues: https://github.com/broadinstitute/CellBender/issues/111 Fix Load data Load data with below function anndata_from_h5: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 import tables import numpy as np import scipy.]]></description>
+</item>
+<item>
     <title>iTerm2 Shell Integration</title>
     <link>https://dyinboisry4u.github.io/230223/</link>
     <pubDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</pubDate>
