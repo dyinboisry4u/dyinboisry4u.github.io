@@ -213,3 +213,9 @@ drop them out and then do QC
 ```python
 adataAll[adataAll.obs['n_genes_by_counts'] != 0]
 ```
+
+---
+
+> Author: Gaux Wang  
+> URL: https://dyinboisry4u.github.io/230224/  
+

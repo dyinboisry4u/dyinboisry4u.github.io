@@ -1,16 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>iTerm2 - Tag - Gaux Wang&#39;s Blog</title>
-        <link>https://dyinboisry4u.github.io/tags/iterm2/</link>
-        <description>iTerm2 - Tag - Gaux Wang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shaoxuanwang@hotmail.com (Gaux Wang)</managingEditor>
-            <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/tags/iterm2/" rel="self" type="application/rss+xml" /><item>
-    <title>iTerm2 Shell Integration</title>
-    <link>https://dyinboisry4u.github.io/230223/</link>
-    <pubDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</pubDate>
-    <author>Gaux Wang</author>
-    <guid>https://dyinboisry4u.github.io/230223/</guid>
-    <description><![CDATA[iTerm2 shell integration iTerm2 may be integrated with the unix shell so that it can keep track of your command history, current working directory, host name, and more—even over ssh. This enables several useful features.
+  <channel>
+    <title>iTerm2 - Tag - Gaux Wang&#39;s Blog</title>
+    <link>https://dyinboisry4u.github.io/tags/iterm2/</link>
+    <description>iTerm2 - Tag - Gaux Wang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/tags/iterm2/" rel="self" type="application/rss+xml" /><item>
+  <title>iTerm2 Shell Integration</title>
+  <link>https://dyinboisry4u.github.io/230223/</link>
+  <pubDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</pubDate>
+  <author>Gaux Wang</author>
+  <guid>https://dyinboisry4u.github.io/230223/</guid>
+  <description><![CDATA[iTerm2 shell integration iTerm2 may be integrated with the unix shell so that it can keep track of your command history, current working directory, host name, and more—even over ssh. This enables several useful features.
 Install NOTE: first ssh your server Select the iTerm2&gt;Install Shell Integration menu item Select Continue and select the second install way Internet-free Install Select Continue until install finished Features iTerm2 Documentation: Documentation For me, 2 features are very useful:]]></description>
 </item>
 </channel>

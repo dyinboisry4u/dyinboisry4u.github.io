@@ -25,3 +25,9 @@ ii. If you drop a file (e.g., from Finder) into iTerm2 while holding the **optio
 
 
 
+
+---
+
+> Author: Gaux Wang  
+> URL: https://dyinboisry4u.github.io/230223/  
+

@@ -1,35 +1,46 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>All Posts - Gaux Wang&#39;s Blog</title>
-        <link>https://dyinboisry4u.github.io/posts/</link>
-        <description>All Posts | Gaux Wang&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shaoxuanwang@hotmail.com (Gaux Wang)</managingEditor>
-            <webMaster>shaoxuanwang@hotmail.com (Gaux Wang)</webMaster><lastBuildDate>Fri, 24 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Load cellbender filtered data to scanpy</title>
-    <link>https://dyinboisry4u.github.io/230224/</link>
-    <pubDate>Fri, 24 Feb 2023 00:00:00 &#43;0000</pubDate>
-    <author>Gaux Wang</author>
-    <guid>https://dyinboisry4u.github.io/230224/</guid>
-    <description><![CDATA[Load cellbender filtered data to scanpy Fix cellbender data loading problems
+  <channel>
+    <title>All Posts - Gaux Wang&#39;s Blog</title>
+    <link>https://dyinboisry4u.github.io/posts/</link>
+    <description>All Posts | Gaux Wang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://dyinboisry4u.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>(230215-bioRxiv) A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation</title>
+  <link>https://dyinboisry4u.github.io/230226/</link>
+  <pubDate>Sun, 26 Feb 2023 00:00:00 &#43;0000</pubDate>
+  <author>Gaux Wang</author>
+  <guid>https://dyinboisry4u.github.io/230226/</guid>
+  <description><![CDATA[<div class="featured-image">
+        <img src="/img/230215-paper/paper.gif" referrerpolicy="no-referrer">
+      </div>A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation NOTE It will take several days to finish this journal club Qin et.al | bioRxiv | 2023.02.15.528008 | doi: https://doi.org/10.1101/2023.02.15.528008
+Brief Here we describe a functional single-cell study exploring how cell-extrinsic and cell-intrinsic cues co-regulate colonic epithelial fate. Author Leader: Christopher J. Tape | UCL Cancer Institute
+Focus on: How the different cell types in cancer communicate with one another to drive tumours]]></description>
+</item>
+<item>
+  <title>Load cellbender filtered data to scanpy</title>
+  <link>https://dyinboisry4u.github.io/230224/</link>
+  <pubDate>Fri, 24 Feb 2023 00:00:00 &#43;0000</pubDate>
+  <author>Gaux Wang</author>
+  <guid>https://dyinboisry4u.github.io/230224/</guid>
+  <description><![CDATA[Load cellbender filtered data to scanpy Fix cellbender data loading problems
 Problems On cellbender v0.2,2, here are 2 questions:
 Can not load cb output with sc.read_10_h5: scanpy v1.9.1 complains ValueError: Illegal slicing argument for scalar dataspace Releated issues: i. https://github.com/broadinstitute/CellBender/issues/174 ii. https://github.com/broadinstitute/CellBender/issues/128 CB filter data include &ldquo;cells&rdquo; with zero counts Releated issues: https://github.com/broadinstitute/CellBender/issues/111 Fix Load data Load data with below function anndata_from_h5: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 import tables import numpy as np import scipy.]]></description>
 </item>
 <item>
-    <title>iTerm2 Shell Integration</title>
-    <link>https://dyinboisry4u.github.io/230223/</link>
-    <pubDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</pubDate>
-    <author>Gaux Wang</author>
-    <guid>https://dyinboisry4u.github.io/230223/</guid>
-    <description><![CDATA[iTerm2 shell integration iTerm2 may be integrated with the unix shell so that it can keep track of your command history, current working directory, host name, and more—even over ssh. This enables several useful features.
+  <title>iTerm2 Shell Integration</title>
+  <link>https://dyinboisry4u.github.io/230223/</link>
+  <pubDate>Thu, 23 Feb 2023 00:00:00 &#43;0000</pubDate>
+  <author>Gaux Wang</author>
+  <guid>https://dyinboisry4u.github.io/230223/</guid>
+  <description><![CDATA[iTerm2 shell integration iTerm2 may be integrated with the unix shell so that it can keep track of your command history, current working directory, host name, and more—even over ssh. This enables several useful features.
 Install NOTE: first ssh your server Select the iTerm2&gt;Install Shell Integration menu item Select Continue and select the second install way Internet-free Install Select Continue until install finished Features iTerm2 Documentation: Documentation For me, 2 features are very useful:]]></description>
 </item>
 <item>
-    <title>My first Post</title>
-    <link>https://dyinboisry4u.github.io/230222/</link>
-    <pubDate>Wed, 15 Feb 2023 00:00:00 &#43;0000</pubDate>
-    <author>Gaux Wang</author>
-    <guid>https://dyinboisry4u.github.io/230222/</guid>
-    <description><![CDATA[Hi, here is my first post I&rsquo;ll record my study and something on here
+  <title>My first Post</title>
+  <link>https://dyinboisry4u.github.io/230222/</link>
+  <pubDate>Wed, 15 Feb 2023 00:00:00 &#43;0000</pubDate>
+  <author>Gaux Wang</author>
+  <guid>https://dyinboisry4u.github.io/230222/</guid>
+  <description><![CDATA[Hi, here is my first post I&rsquo;ll record my study and something on here
 So today is a new day
 morning eat eat afternoon sleep sleep evening 1 echo &#34;hi&#34; 1 print(&#34;hi&#34;) 1 print(&#34;hi&#34;) 1 print &#34;hi&#34; ]]></description>
 </item>
