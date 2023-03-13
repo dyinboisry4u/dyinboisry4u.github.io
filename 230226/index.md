@@ -1,5 +1,7 @@
 # (230215-bioRxiv) A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation
 
+Cancer cells are regulated by oncogenic mutations and microenvironmental signals, yet these processes are often studied separately😕. To functionally map how **cell-intrinsic** and **cell-extrinsic** cues co-regulate cell-fate in colorectal cancer (CRC), we performed a systematic single-cell analysis of 1,071 colonic organoid cultures regulated by...
+<!--more-->
 
 # A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation
 {{< admonition type=warning title="NOTE" open=true >}}
