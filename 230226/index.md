@@ -30,26 +30,35 @@ co-regulate colonic epithelial fate**.
 ## Background 
 <hr>
 
-{{< admonition type=note title="Intestinal cells" open=true >}}
-### Cell type:
-> **Ref:** <br>
+### Intestinal cell type:
+#### **Ref** <br>
+1. intestinal stem cells and epithelium cells: <br>
 [<u>2021, Nat Rev Mol Cell Biol</u>](https://www.nature.com/articles/s41580-020-0278-0)<br>
 [<u>2019, Nat Rev Gastroenterol Hepatol</u>](https://www.nature.com/articles/s41575-018-0081-y)<br>
 [<u>2010, Transl Res</u>](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/20801415/)<br>
 [<u>2021, Cell Regen</u>](https://cellregeneration.springeropen.com/articles/10.1186/s13619-020-00061-5)<br>
+2. intestinal mesenchymal cells: <br>
+[<u>2020, Nat Cell Biol</u>](https://www.nature.com/articles/s41556-020-0567-z)<br>
 [<u>2020, Immunology</u>](https://onlinelibrary.wiley.com/doi/10.1111/imm.13191)<br>
+[<u>2022, Int J Mol Sci</u>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9100044/)<br>
+3. intestinal immune cells: <br>
+[<u>2014, Nat Rev Immunol</u>](https://www.nature.com/articles/nri3738)<br>
+4. intestinal neural cell: <br>
 [<u>2021, Front Physiol</u>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8317205/)<br>
 [<u>2022, Nat Rev Gastroenterol Hepatol</u>](https://www.nature.com/articles/s41575-021-00553-y)<br>
+5. intestinal single cell atlas: <br>
 [<u>2021, Nature</u>](https://www.nature.com/articles/s41586-021-03852-1)<br>
 [<u>2021, Cell</u>](https://www.sciencedirect.com/science/article/pii/S009286742031686X)<br>
 
 {{< image src="/img/230215-paper/Intestinal structure.webp" caption="**Intestinal structure**" src_s="/images/230215-paper/Intestinal structure.webp">}}
 
-1. **Intestinal stem cell (ISC):** 
+#### 1. **Intestinal stem cell (ISC):** 
 * i. `Crypt base columnar (CBC) cells`: canonical/traditional/rapidly-cycling stem cell **|** generation of multiple lineages and long-term self-renewal **|** bottom of the crypt; interspersed between Paneth cells **|** LGR5+ OLFM4+ 
 * ii. `+4 cells/Label-retaining cells (LRC)`: reserved/precursor/quiescent stem cell population [2013, Nature](https://www.nature.com/articles/nature11965) **|** +4 means located at the ~+4 from the crypt base;label-retaining means take advantage of these cells slow-cycling characteristic to take LRC approach (e.g. EdU labeling), a lineage tracing method, and LRCs are cells that retain a DNA synthesis label after a prolonged chase period **|** committed to mature into Paneth cells and EECs, but retain the ability to reacquire stem-cell function. At homeostatic/normal intestinal tissue they do not contribute cell turnover but can repopulate the crypt upon damage.
-2. **progenitor cells:**
+
+#### 2. **progenitor cells:**
 also named as transit-amplifying cells(TACs) (not accurate) **|** more specific than stem cells and can only be pushed to differentiate into its "target" cell type.
+
 ---
 
 <b><center><font color=#5D9C59>intestinal stem cell niche (microenvironment)</font></center></b>
@@ -58,12 +67,20 @@ also named as transit-amplifying cells(TACs) (not accurate) **|** more specific 
 
 > The epithelium and mesenchyme cooperate to generate the complex dynamic observed in intestinal crypts. Together they provide the key signals that regulate intestinal fate determination: `WNT`, `Notch`, `EGF` and `BMP` signalling
 
-3. **epithelium cell:**
-epithelium cell (especially Paneth cell) constitute the epithelial niche
+{{< image src="/img/230215-paper/niche.png" caption="**(mesenchymal) niche**">}}
+
+#### 3. **epithelium cell:**
+epithelium cell (especially Paneth cell) constitute the epithelial niche <br>
+Ref: <br>
+[<u>2022, Cell Mol Gastroenterol Hepatol</u>](https://www.sciencedirect.com/science/article/pii/S2352345X22000340)<br>
+[<u>2017, Nature</u>](https://www.nature.com/articles/nature24489)<br>
+
+{{< image src="/img/230215-paper/epithelial.png" caption="**epithelium cell**" >}}
+
 * i. Secretory lineage
   * (1) Paneth cells: 
   * (2) Goblet cells
-  * (3) Enteroendocrine cells
+  * (3) Enteroendocrine cells (EEC)
   * (4) Tuft cells
 * ii. Absorptive lineage
   * (1) Enterocytes
@@ -72,20 +89,31 @@ epithelium cell (especially Paneth cell) constitute the epithelial niche
 here is epithelium cell specification: <br>
 {{< image src="/img/230215-paper/cell specification.webp" caption="**Cell specification**" >}}
 
-4. **Intestinal mesenchymal (stromal) cell (IMC):**
+#### 4. **Intestinal mesenchymal (stromal) cell (IMC):**
 1) Naming ambiguity: mesenchymal cell (MC) or stromal cell **|** mesenchymal stem cell (MSC) or mesenchymal stromal cell😤 <br>
 2) cancer-associated transdifferentiation: transdifferentiation of epithelial cells to mesenchymal cells (**EMT**); transdifferentiation of endothelial to mesenchymal cells (**EndMT**); transdifferentiation of mesothelial cells to mesenchymal cells (**MMT**) <br>
 3) Most of IMC originates from the mesoderm and differentiates from mesenchymal stem cells, locate on subepithelial compartment, constitute the mesenchymal niche.<br>
 `NOTE:` for CRC IMC, here is a review:[2017, Gastroenterology](https://pubmed.ncbi.nlm.nih.gov/28111227/)<br>
-4) subtypes: pericyte; myofibroblasts; fibroblast...; (Foxl1+ MCs; Gli1+ MCs...) <br>
+5) subtypes: 
+{{< admonition type=warning title="Warning" open=true >}}
+Here is an unclear part, most people think `mesenchymal cell` represent a `non-hematopoietic, non-epithelial, and non-endothelial stromal compartments of connective tissues. They include highly diverse populations of fibroblasts, myofibroblasts, pericytes, smooth muscle cells, and mesenchymal progenitor cells`, but Mesothelial cells is what?
+{{< /admonition >}}
+pericyte; myofibroblasts (telocytes); fibroblast; xxx fibroblast...; myocytes (smooth muscle cells / muscularis).. (Foxl1+ MCs; Gli1+ MCs...) <br>
+<br>
+A reasonable classification:<br>
+{{< image src="/img/230215-paper/mesenchymal.webp" caption="**mesenchymal cells**" >}}
 
-5. **Other cell types:**
-i. Immune cells: ..<br>
-ii. Endothelial cells: <br>
-iii. Mesothelial cells: some papers seem classify mesothelial cells as mesenchymal (stromal) cell..?😤 <br>
-iv. intestinal neural cells: intestinal has its typical nervous system called intrinsic enteric nervous system (ENS): neuron and enteric glial cells (EGC)... <br>
+#### 5. **Other cell types:**
+* i. Immune cells: ..<br>
+* ii. Endothelial cells: <br>
+* iii. Mesothelial cells: some papers seem classify mesothelial cells as mesenchymal (stromal) cell..?😤<br>
+* iv. intestinal neural cells: intestinal has its typical nervous system called intrinsic enteric nervous system (ENS): neuron and enteric glial cells (EGC)... <br>
 ...
 
+{{< image src="/img/230215-paper/scRNA_atlas.png" caption="**Cell types**" >}}
+
+{{< admonition type=note title="NOTE" open=true >}}
+The cell classification appears to lack a unified standard...
 {{< /admonition >}}
 
 ---

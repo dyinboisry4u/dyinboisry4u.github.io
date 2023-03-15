@@ -10,7 +10,7 @@
 <meta name="description" content="Cancer cells are regulated by oncogenic mutations and microenvironmental signals, yet these processes are often studied separately😕. To functionally map how cell-intrinsic and cell-extrinsic cues co-regulate cell-fate in colorectal cancer (CRC), we performed a systematic single-cell analysis of 1,071 colonic organoid cultures regulated by&hellip;" /><meta name="keywords" content='scRNA-Seq, bioRxiv, CRC, TME, epithelial, cell fate' /><meta itemprop="name" content="(230215-bioRxiv) A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation - P1">
 <meta itemprop="description" content="Cancer cells are regulated by oncogenic mutations and microenvironmental signals, yet these processes are often studied separately😕. To functionally map how cell-intrinsic and cell-extrinsic cues co-regulate cell-fate in colorectal cancer (CRC), we performed a systematic single-cell analysis of 1,071 colonic organoid cultures regulated by&hellip;"><meta itemprop="datePublished" content="2023-02-26T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-02-26T00:00:00+00:00" />
-<meta itemprop="wordCount" content="561"><meta itemprop="image" content="https://dyinboisry4u.github.io/logo.png"/>
+<meta itemprop="wordCount" content="679"><meta itemprop="image" content="https://dyinboisry4u.github.io/logo.png"/>
 <meta itemprop="keywords" content="scRNA-Seq,bioRxiv,CRC,TME,epithelial,cell fate," /><meta property="og:title" content="(230215-bioRxiv) A Single-cell Perturbation Landscape of Colonic Stem Cell Polarisation - P1" />
 <meta property="og:description" content="Cancer cells are regulated by oncogenic mutations and microenvironmental signals, yet these processes are often studied separately😕. To functionally map how cell-intrinsic and cell-extrinsic cues co-regulate cell-fate in colorectal cancer (CRC), we performed a systematic single-cell analysis of 1,071 colonic organoid cultures regulated by&hellip;" />
 <meta property="og:type" content="article" />
@@ -33,7 +33,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/dyinboisry4u.github.io\/230226\/"
-    },"genre": "posts","keywords": "scRNA-Seq, bioRxiv, CRC, TME, epithelial, cell fate","wordcount":  561 ,
+    },"genre": "posts","keywords": "scRNA-Seq, bioRxiv, CRC, TME, epithelial, cell fate","wordcount":  679 ,
     "url": "https:\/\/dyinboisry4u.github.io\/230226\/","datePublished": "2023-02-26T00:00:00+00:00","dateModified": "2023-02-26T00:00:00+00:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -164,7 +164,7 @@
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/img/2.jpeg" srcset="/img/2.jpeg, /img/2.jpeg 1.5x, /img/2.jpeg 2x" sizes="auto" data-title="Gaux Wang" data-alt="Gaux Wang" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;Gaux Wang</span></span>
           <span class="post-category">included in <a href="/categories/paper/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> paper</a>&ensp;<a href="/categories/scrna-seq/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> scRNA-Seq</a></span></div>
-      <div class="post-meta-line"><span title=2023-02-26&#32;00:00:00><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-26">2023-02-26</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 561 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> 3 minutes</span>&nbsp;</div>
+      <div class="post-meta-line"><span title=2023-02-26&#32;00:00:00><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-26">2023-02-26</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 679 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> 4 minutes</span>&nbsp;</div>
     </div><div class="featured-image"><img loading="lazy" src="/img/230215-paper/paper.gif" srcset="/img/230215-paper/paper.gif, /img/230215-paper/paper.gif 1.5x, /img/230215-paper/paper.gif 2x" sizes="auto" data-title="/img/230215-paper/paper.gif" data-alt="/img/230215-paper/paper.gif" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>Contents</span>
@@ -173,7 +173,20 @@
         <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#author">Author</a></li>
-    <li><a href="#background">Background</a></li>
+    <li><a href="#background">Background</a>
+      <ul>
+        <li><a href="#intestinal-cell-type">Intestinal cell type:</a>
+          <ul>
+            <li><a href="#ref-br"><strong>Ref</strong> <br></a></li>
+            <li><a href="#1-intestinal-stem-cell-isc">1. <strong>Intestinal stem cell (ISC):</strong></a></li>
+            <li><a href="#2-progenitor-cells">2. <strong>progenitor cells:</strong></a></li>
+            <li><a href="#3-epithelium-cell">3. <strong>epithelium cell:</strong></a></li>
+            <li><a href="#4-intestinal-mesenchymal-stromal-cell-imc">4. <strong>Intestinal mesenchymal (stromal) cell (IMC):</strong></a></li>
+            <li><a href="#5-other-cell-types">5. <strong>Other cell types:</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
       </div><div class="content" id="content"><p>Cancer cells are regulated by oncogenic mutations and microenvironmental signals, yet these processes are often studied separately😕. To functionally map how <strong>cell-intrinsic</strong> and <strong>cell-extrinsic</strong> cues co-regulate cell-fate in colorectal cancer (CRC), we performed a systematic single-cell analysis of 1,071 colonic organoid cultures regulated by&hellip;</p>
@@ -207,37 +220,36 @@ co-regulate colonic epithelial fate</strong>.</div>
 <p><strong>Website:</strong> The Cell Communication Lab: <a href="http://tape-lab.com/"target="_blank" rel="external nofollow noopener noreferrer">http://tape-lab.com/</a></p>
 <h2 id="background">Background</h2>
 <hr>
-<div class="details admonition note open">
-    <div class="details-summary admonition-title">
-      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>Intestinal cells<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-    </div>
-    <div class="details-content">
-      <div class="admonition-content"><h3 id="cell-type">Cell type:</h3>
-<blockquote>
-<p><strong>Ref:</strong> <br>
+<h3 id="intestinal-cell-type">Intestinal cell type:</h3>
+<h4 id="ref-br"><strong>Ref</strong> <br></h4>
+<ol>
+<li>intestinal stem cells and epithelium cells: <br>
 <a href="https://www.nature.com/articles/s41580-020-0278-0"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Nat Rev Mol Cell Biol</u></a><br>
 <a href="https://www.nature.com/articles/s41575-018-0081-y"target="_blank" rel="external nofollow noopener noreferrer"><u>2019, Nat Rev Gastroenterol Hepatol</u></a><br>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/20801415/"target="_blank" rel="external nofollow noopener noreferrer"><u>2010, Transl Res</u></a><br>
-<a href="https://cellregeneration.springeropen.com/articles/10.1186/s13619-020-00061-5"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Cell Regen</u></a><br>
+<a href="https://cellregeneration.springeropen.com/articles/10.1186/s13619-020-00061-5"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Cell Regen</u></a><br></li>
+<li>intestinal mesenchymal cells: <br>
+<a href="https://www.nature.com/articles/s41556-020-0567-z"target="_blank" rel="external nofollow noopener noreferrer"><u>2020, Nat Cell Biol</u></a><br>
 <a href="https://onlinelibrary.wiley.com/doi/10.1111/imm.13191"target="_blank" rel="external nofollow noopener noreferrer"><u>2020, Immunology</u></a><br>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9100044/"target="_blank" rel="external nofollow noopener noreferrer"><u>2022, Int J Mol Sci</u></a><br></li>
+<li>intestinal immune cells: <br>
+<a href="https://www.nature.com/articles/nri3738"target="_blank" rel="external nofollow noopener noreferrer"><u>2014, Nat Rev Immunol</u></a><br></li>
+<li>intestinal neural cell: <br>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8317205/"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Front Physiol</u></a><br>
-<a href="https://www.nature.com/articles/s41575-021-00553-y"target="_blank" rel="external nofollow noopener noreferrer"><u>2022, Nat Rev Gastroenterol Hepatol</u></a><br>
+<a href="https://www.nature.com/articles/s41575-021-00553-y"target="_blank" rel="external nofollow noopener noreferrer"><u>2022, Nat Rev Gastroenterol Hepatol</u></a><br></li>
+<li>intestinal single cell atlas: <br>
 <a href="https://www.nature.com/articles/s41586-021-03852-1"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Nature</u></a><br>
-<a href="https://www.sciencedirect.com/science/article/pii/S009286742031686X"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Cell</u></a><br></p>
-</blockquote>
+<a href="https://www.sciencedirect.com/science/article/pii/S009286742031686X"target="_blank" rel="external nofollow noopener noreferrer"><u>2021, Cell</u></a><br></li>
+</ol>
 <figure><a class="lightgallery" href="/img/230215-paper/Intestinal%20structure.webp" data-thumbnail="/images/230215-paper/Intestinal structure.webp" data-sub-html="<h2>Intestinal structure</h2>"><img loading="lazy" src="/img/230215-paper/Intestinal%20structure.webp" srcset="/images/230215-paper/Intestinal%20structure.webp, /img/230215-paper/Intestinal%20structure.webp 1.5x, /img/230215-paper/Intestinal%20structure.webp 2x" sizes="auto" data-title="/img/230215-paper/Intestinal structure.webp" data-alt="/img/230215-paper/Intestinal structure.webp" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>Intestinal structure</strong></figcaption>
   </figure>
-<ol>
-<li><strong>Intestinal stem cell (ISC):</strong></li>
-</ol>
+<h4 id="1-intestinal-stem-cell-isc">1. <strong>Intestinal stem cell (ISC):</strong></h4>
 <ul>
 <li>i. <code>Crypt base columnar (CBC) cells</code>: canonical/traditional/rapidly-cycling stem cell <strong>|</strong> generation of multiple lineages and long-term self-renewal <strong>|</strong> bottom of the crypt; interspersed between Paneth cells <strong>|</strong> LGR5+ OLFM4+</li>
 <li>ii. <code>+4 cells/Label-retaining cells (LRC)</code>: reserved/precursor/quiescent stem cell population <a href="https://www.nature.com/articles/nature11965"target="_blank" rel="external nofollow noopener noreferrer">2013, Nature</a> <strong>|</strong> +4 means located at the ~+4 from the crypt base;label-retaining means take advantage of these cells slow-cycling characteristic to take LRC approach (e.g. EdU labeling), a lineage tracing method, and LRCs are cells that retain a DNA synthesis label after a prolonged chase period <strong>|</strong> committed to mature into Paneth cells and EECs, but retain the ability to reacquire stem-cell function. At homeostatic/normal intestinal tissue they do not contribute cell turnover but can repopulate the crypt upon damage.</li>
 </ul>
-<ol start="2">
-<li><strong>progenitor cells:</strong>
-also named as transit-amplifying cells(TACs) (not accurate) <strong>|</strong> more specific than stem cells and can only be pushed to differentiate into its &ldquo;target&rdquo; cell type.</li>
-</ol>
+<h4 id="2-progenitor-cells">2. <strong>progenitor cells:</strong></h4>
+<p>also named as transit-amplifying cells(TACs) (not accurate) <strong>|</strong> more specific than stem cells and can only be pushed to differentiate into its &ldquo;target&rdquo; cell type.</p>
 <hr>
 <p><b><center><font color=#5D9C59>intestinal stem cell niche (microenvironment)</font></center></b></p>
 <blockquote>
@@ -246,16 +258,21 @@ also named as transit-amplifying cells(TACs) (not accurate) <strong>|</strong> m
 <blockquote>
 <p>The epithelium and mesenchyme cooperate to generate the complex dynamic observed in intestinal crypts. Together they provide the key signals that regulate intestinal fate determination: <code>WNT</code>, <code>Notch</code>, <code>EGF</code> and <code>BMP</code> signalling</p>
 </blockquote>
-<ol start="3">
-<li><strong>epithelium cell:</strong>
-epithelium cell (especially Paneth cell) constitute the epithelial niche</li>
-</ol>
+<figure><a class="lightgallery" href="/img/230215-paper/niche.png" data-thumbnail="/img/230215-paper/niche.png" data-sub-html="<h2>(mesenchymal) niche</h2>"><img loading="lazy" src="/img/230215-paper/niche.png" srcset="/img/230215-paper/niche.png, /img/230215-paper/niche.png 1.5x, /img/230215-paper/niche.png 2x" sizes="auto" data-title="/img/230215-paper/niche.png" data-alt="/img/230215-paper/niche.png" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>(mesenchymal) niche</strong></figcaption>
+  </figure>
+<h4 id="3-epithelium-cell">3. <strong>epithelium cell:</strong></h4>
+<p>epithelium cell (especially Paneth cell) constitute the epithelial niche <br>
+Ref: <br>
+<a href="https://www.sciencedirect.com/science/article/pii/S2352345X22000340"target="_blank" rel="external nofollow noopener noreferrer"><u>2022, Cell Mol Gastroenterol Hepatol</u></a><br>
+<a href="https://www.nature.com/articles/nature24489"target="_blank" rel="external nofollow noopener noreferrer"><u>2017, Nature</u></a><br></p>
+<figure><a class="lightgallery" href="/img/230215-paper/epithelial.png" data-thumbnail="/img/230215-paper/epithelial.png" data-sub-html="<h2>epithelium cell</h2>"><img loading="lazy" src="/img/230215-paper/epithelial.png" srcset="/img/230215-paper/epithelial.png, /img/230215-paper/epithelial.png 1.5x, /img/230215-paper/epithelial.png 2x" sizes="auto" data-title="/img/230215-paper/epithelial.png" data-alt="/img/230215-paper/epithelial.png" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>epithelium cell</strong></figcaption>
+  </figure>
 <ul>
 <li>i. Secretory lineage
 <ul>
 <li>(1) Paneth cells:</li>
 <li>(2) Goblet cells</li>
-<li>(3) Enteroendocrine cells</li>
+<li>(3) Enteroendocrine cells (EEC)</li>
 <li>(4) Tuft cells</li>
 </ul>
 </li>
@@ -266,28 +283,46 @@ epithelium cell (especially Paneth cell) constitute the epithelial niche</li>
 </ul>
 </li>
 </ul>
-<p>here is epithelium cell specification: <br></p>
+<p>here is epithelium cell specification: <br>
 <figure><a class="lightgallery" href="/img/230215-paper/cell%20specification.webp" data-thumbnail="/img/230215-paper/cell specification.webp" data-sub-html="<h2>Cell specification</h2>"><img loading="lazy" src="/img/230215-paper/cell%20specification.webp" srcset="/img/230215-paper/cell%20specification.webp, /img/230215-paper/cell%20specification.webp 1.5x, /img/230215-paper/cell%20specification.webp 2x" sizes="auto" data-title="/img/230215-paper/cell specification.webp" data-alt="/img/230215-paper/cell specification.webp" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>Cell specification</strong></figcaption>
-  </figure>
-<ol start="4">
-<li><strong>Intestinal mesenchymal (stromal) cell (IMC):</strong></li>
-</ol>
+  </figure></p>
+<h4 id="4-intestinal-mesenchymal-stromal-cell-imc">4. <strong>Intestinal mesenchymal (stromal) cell (IMC):</strong></h4>
 <ol>
 <li>Naming ambiguity: mesenchymal cell (MC) or stromal cell <strong>|</strong> mesenchymal stem cell (MSC) or mesenchymal stromal cell😤 <br></li>
 <li>cancer-associated transdifferentiation: transdifferentiation of epithelial cells to mesenchymal cells (<strong>EMT</strong>); transdifferentiation of endothelial to mesenchymal cells (<strong>EndMT</strong>); transdifferentiation of mesothelial cells to mesenchymal cells (<strong>MMT</strong>) <br></li>
 <li>Most of IMC originates from the mesoderm and differentiates from mesenchymal stem cells, locate on subepithelial compartment, constitute the mesenchymal niche.<br>
 <code>NOTE:</code> for CRC IMC, here is a review:<a href="https://pubmed.ncbi.nlm.nih.gov/28111227/"target="_blank" rel="external nofollow noopener noreferrer">2017, Gastroenterology</a><br></li>
-<li>subtypes: pericyte; myofibroblasts; fibroblast&hellip;; (Foxl1+ MCs; Gli1+ MCs&hellip;) <br></li>
+<li>subtypes:
+<div class="details admonition warning open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-exclamation-triangle fa-fw" aria-hidden="true"></i>Warning<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">Here is an unclear part, most people think <code>mesenchymal cell</code> represent a <code>non-hematopoietic, non-epithelial, and non-endothelial stromal compartments of connective tissues. They include highly diverse populations of fibroblasts, myofibroblasts, pericytes, smooth muscle cells, and mesenchymal progenitor cells</code>, but Mesothelial cells is what?</div>
+    </div>
+  </div>
+pericyte; myofibroblasts (telocytes); fibroblast; xxx fibroblast&hellip;; myocytes (smooth muscle cells / muscularis).. (Foxl1+ MCs; Gli1+ MCs&hellip;) <br>
+<br>
+A reasonable classification:<br>
+<figure><a class="lightgallery" href="/img/230215-paper/mesenchymal.webp" data-thumbnail="/img/230215-paper/mesenchymal.webp" data-sub-html="<h2>mesenchymal cells</h2>"><img loading="lazy" src="/img/230215-paper/mesenchymal.webp" srcset="/img/230215-paper/mesenchymal.webp, /img/230215-paper/mesenchymal.webp 1.5x, /img/230215-paper/mesenchymal.webp 2x" sizes="auto" data-title="/img/230215-paper/mesenchymal.webp" data-alt="/img/230215-paper/mesenchymal.webp" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>mesenchymal cells</strong></figcaption>
+  </figure></li>
 </ol>
-<ol start="5">
-<li><strong>Other cell types:</strong>
-i. Immune cells: ..<br>
-ii. Endothelial cells: <br>
-iii. Mesothelial cells: some papers seem classify mesothelial cells as mesenchymal (stromal) cell..?😤 <br>
-iv. intestinal neural cells: intestinal has its typical nervous system called intrinsic enteric nervous system (ENS): neuron and enteric glial cells (EGC)&hellip; <br>
+<h4 id="5-other-cell-types">5. <strong>Other cell types:</strong></h4>
+<ul>
+<li>i. Immune cells: ..<br></li>
+<li>ii. Endothelial cells: <br></li>
+<li>iii. Mesothelial cells: some papers seem classify mesothelial cells as mesenchymal (stromal) cell..?😤<br></li>
+<li>iv. intestinal neural cells: intestinal has its typical nervous system called intrinsic enteric nervous system (ENS): neuron and enteric glial cells (EGC)&hellip; <br>
 &hellip;</li>
-</ol>
-</div>
+</ul>
+<figure><a class="lightgallery" href="/img/230215-paper/scRNA_atlas.png" data-thumbnail="/img/230215-paper/scRNA_atlas.png" data-sub-html="<h2>Cell types</h2>"><img loading="lazy" src="/img/230215-paper/scRNA_atlas.png" srcset="/img/230215-paper/scRNA_atlas.png, /img/230215-paper/scRNA_atlas.png 1.5x, /img/230215-paper/scRNA_atlas.png 2x" sizes="auto" data-title="/img/230215-paper/scRNA_atlas.png" data-alt="/img/230215-paper/scRNA_atlas.png" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a><figcaption class="image-caption"><strong>Cell types</strong></figcaption>
+  </figure>
+<div class="details admonition note open">
+    <div class="details-summary admonition-title">
+      <i class="icon fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i>NOTE<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
+    </div>
+    <div class="details-content">
+      <div class="admonition-content">The cell classification appears to lack a unified standard&hellip;</div>
     </div>
   </div></div><div class="post-footer" id="post-footer">
   <div class="post-info">
